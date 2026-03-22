@@ -1,11 +1,19 @@
 {
-  "Name": "Study dataset for study-ds003900",
+  "Name": "Study dataset for ds003900",
   "BIDSVersion": "1.10.1",
   "DatasetType": "study",
-  "License": "CC0",
-  "Authors": [
-    "OpenNeuroStudies Contributors"
+  "GeneratedBy": [
+    {
+      "Name": "openneuro-studies",
+      "Version": "0.20251009.0",
+      "Description": "OpenNeuroStudies infrastructure for organizing OpenNeuro datasets",
+      "CodeURL": "https://github.com/OpenNeuroStudies/OpenNeuroStudies"
+    }
   ],
+  "Authors": [
+    "Yaroslav Halchenko"
+  ],
+  "License": "CC0",
   "ReferencesAndLinks": [
     "https://openneuro.org",
     "https://github.com/OpenNeuroStudies/study-ds003900",
