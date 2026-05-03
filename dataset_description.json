@@ -2,6 +2,20 @@
   "Name": "Study dataset for ds003900",
   "BIDSVersion": "1.10.1",
   "DatasetType": "study",
+  "SourceDatasets": [
+    {
+      "URL": "bids::sourcedata/ds001796/",
+      "DOI": "doi:10.18112/openneuro.ds001796"
+    },
+    {
+      "URL": "bids::sourcedata/ds000030/",
+      "DOI": "doi:10.18112/openneuro.ds000030"
+    },
+    {
+      "URL": "bids::sourcedata/ds000201/",
+      "DOI": "doi:10.18112/openneuro.ds000201"
+    }
+  ],
   "GeneratedBy": [
     {
       "Name": "openneuro-studies",
