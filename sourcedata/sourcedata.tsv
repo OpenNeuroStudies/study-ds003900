@@ -1,4 +1,4 @@
-source_id	subjects_num	sessions_num	sessions_min	sessions_max	bold_num	t1w_num	t2w_num	bold_size	t1w_size	bold_size_max	bold_duration_total	bold_duration_mean	bold_voxels_total	bold_voxels_mean	datatypes
-ds001796	64	n/a	n/a	n/a	128	128	0	41383200748	3253570344	323306255	99456.0	777.0	70502400	550800.0	anat,dwi,fmap,func
-ds000030	272	n/a	n/a	n/a	2004	265	0	69778929979	3157338052	34819825	838728.0	418.52694610778445	279085056	139264.0	anat,beh,dwi,func
-ds000201	86	171	1	2	820	167	86	143176527050	9438117886	174605520	497032.0	606.1365853658536	632061952	770807.2585365854	anat,beh,dwi,fmap,func
+source_id	subjects_num	sessions_num	sessions_min	sessions_max	bold_num	t1w_num	t2w_num	bold_size	t1w_size	bold_size_max	bold_duration_total	bold_duration_mean	bold_voxels_total	bold_voxels_mean	bold_tasks	bold_timepoints	bold_trs	datatypes
+ds001796	64	n/a	n/a	n/a	128	128	0	41383200748	3253570344	323306255	99456.0	777.0	70502400	550800.0	flanker,rest	66304	{"1.5":128}	anat,dwi,fmap,func
+ds000030	272	n/a	n/a	n/a	2004	265	0	69778929979	3157338052	34819825	838728.0	418.52694610778445	279085056	139264.0	bart,bht,pamenc,pamret,rest,scap,stopsignal,taskswitch	419364	{"2.0":2004}	anat,beh,dwi,func
+ds000201	86	171	1	2	820	167	86	143176527050	9438117886	174605520	497032.0	606.1365853658536	632061952	770807.2585365854	arrows,faces,hands,rest,sleepiness	176348	{"2.5":327,"3.0":493}	anat,beh,dwi,fmap,func
